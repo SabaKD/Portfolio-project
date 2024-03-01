@@ -1,5 +1,66 @@
+:root{
+    --brading-color: black;
+    --heading-font-family: "Lato",
+        sans-serif;
+}
 h1 {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
+    font-family: var(--heading-font-family);
+    font-size: 60px;
     font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3px;
+}
+h2{
+    font-family: var(--heading-font-family);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hero{
+    margin-top: 70px;
+}
+.hero .p1{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    max-width: 740px;
+    margin-top: 40px;
+        
+
+}
+.hero .p2{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 740px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+strong{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+img{
+   
+    max-width: 640px;
+    margin-left: 100px;
+}
+.black-rectangle{
+    background-color: var(--brading-color);
+    height: 110px;
+}
+.primary-button{
+    background-color: var(--brading-color);
+    padding: 15px 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: var(--heading-font-family);
+    margin-bottom: 100px;
 }
