@@ -19,7 +19,7 @@ h2{
     line-height: normal;
 }
 .hero{
-    margin-top: 70px;
+    margin-top: 150px;
 }
 .hero .p1{
     font-size: 25px;
@@ -48,6 +48,7 @@ img{
    
     max-width: 640px;
     margin-left: 100px;
+    margin-top: 20px;
 }
 .black-rectangle{
     background-color: var(--brading-color);
@@ -62,5 +63,11 @@ img{
     color: white;
     font-size: 20px;
     font-family: var(--heading-font-family);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.primary-button:hover{
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 1) 0%, rgba(73, 72, 72, 1) 100%);
 }
