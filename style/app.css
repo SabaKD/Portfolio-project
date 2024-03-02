@@ -1,18 +1,28 @@
 :root{
-    --brading-color: black;
+    --branding-color: black;
     --heading-font-family: "Lato",
         sans-serif;
+    --paragraph-font-color: #555;
+}
+h1, h2, h3, h4,p,a{
+    font-family: var(--heading-font-family);
 }
 h1 {
-    font-family: var(--heading-font-family);
-    font-size: 60px;
+    
+    font-size: 70px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: -3px;
 }
 h2{
-    font-family: var(--heading-font-family);
+    
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
+h3{
+    
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -44,18 +54,18 @@ strong{
     font-weight: 700;
 }
 
-img{
+.hero img{
    
-    max-width: 640px;
-    margin-left: 100px;
-    margin-top: 20px;
+    max-width: 670px;
+    margin-left: 90px;
+    margin-top: 60px;
 }
 .black-rectangle{
-    background-color: var(--brading-color);
+    background-color: var(--branding-color);
     height: 110px;
 }
 .primary-button{
-    background-color: var(--brading-color);
+    background-color: var(--branding-color);
     padding: 15px 25px;
     justify-content: center;
     align-items: center;
@@ -64,10 +74,45 @@ img{
     font-size: 20px;
     font-family: var(--heading-font-family);
     margin-bottom: 50px;
+    border-top: 2px solid #424141;
+    
+border-right: 2px solid #424141;
+    border-left: 2px solid #424141;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .primary-button:hover{
     color: white;
     background: linear-gradient( rgba(0, 0, 0, 1) 0%, rgba(73, 72, 72, 1) 100%);
+}
+.horizontal-line {
+    border: none;
+    border-top: 2.5px solid black;
+    margin: 0px 50px 0px 50px;
+    
+}
+.projects h2{
+    margin-top: 100px;
+    margin-left: 160px;
+    margin-bottom: 80px;
+}
+.projects h4{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 43px;
+}
+.projects p{
+    color: var(--paragraph-font-color);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.projects a{
+margin-bottom: 33px;
+}
+.projects img{
+    margin-left: -20px;
 }
