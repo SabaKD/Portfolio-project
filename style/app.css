@@ -93,7 +93,7 @@ border-right: 2px solid #424141;
 }
 .projects h2{
     margin-top: 100px;
-    margin-left: 160px;
+    
     margin-bottom: 80px;
 }
 .projects h4{
@@ -113,6 +113,21 @@ border-right: 2px solid #424141;
 .projects a{
 margin-bottom: 33px;
 }
-.projects img{
-    margin-left: -20px;
+.project col{
+    padding: 30px;
+}
+
+.heroImage{
+    width: 636px;
+    height: 360px;
+}
+@media (max-width: 1200px){
+    .hero{
+        text-align: center;
+    }
+    .hero .p1, .hero .p2{
+        max-width: 900px;
+    }
+    
+
 }
