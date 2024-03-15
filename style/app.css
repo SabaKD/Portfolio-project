@@ -101,6 +101,8 @@ strong{
 
     margin-top: 140px;
     margin-bottom: 80px;
+    font-size: 70px;
+    font-weight: 700;
 }
 .projects h4{
     font-size: 50px;
@@ -234,6 +236,7 @@ nav li{
 footer{
     margin-top: 90px;
     text-align: center;
+    background-color: var(--background-text);
 }
 footer h2{
     font-size: 60px;
@@ -296,6 +299,16 @@ footer h2{
     nav .primary-button {
         margin-top: 30px;
     }
+    footer h2 {
+            font-size: 40px;
+            
+        }
+    
+        .giveMeACall p {
+            font-size: 18px;
+            
+            
+        }
     
     
 
