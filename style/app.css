@@ -3,6 +3,7 @@
     --heading-font-family: "Lato",
         sans-serif;
     --paragraph-font-color: #555;
+    --background-text: #F7F6F7;
 }
 h1, h2, h3, h4,p,a{
     font-family: var(--heading-font-family);
@@ -27,7 +28,8 @@ h3{
     line-height: normal;
 }
 .hero, .aboutMeHero{
-    margin-top: 150px;
+    margin-top: 140px;
+    background-color: white;
 }
 .hero .p1{
     font-size: 25px;
@@ -61,7 +63,11 @@ strong{
 .black-rectangle{
     background-color: var(--branding-color);
     height: 110px;
+    text-align: center;
+    color: white;
 }
+
+
 .primary-button{
     background-color: var(--branding-color);
     padding: 15px 25px;
@@ -89,9 +95,11 @@ strong{
     margin: 0px 50px 0px 50px;
     
 }
+
+
 .projects h2{
-    margin-top: 100px;
-    
+
+    margin-top: 140px;
     margin-bottom: 80px;
 }
 .projects h4{
@@ -109,7 +117,7 @@ strong{
     margin-bottom: 34px;
 }
 .projects a{
-margin-bottom: 33px;
+ margin-bottom: 33px;
 }
 .project col{
     padding: 30px;
@@ -223,6 +231,28 @@ nav li{
 .hamburger{
     display: none;
 }
+footer{
+    margin-top: 90px;
+    text-align: center;
+}
+footer h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.giveMeACall p {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+.copyRight p{
+    background-color: var(--branding-color);
+    color: white;
+    text-align: left;
+    padding: 40px 80px ;
+    margin-bottom: 0; 
+
+}
+
 
 @media (max-width: 1200px){
     .hero, .aboutMeHero{
@@ -264,7 +294,7 @@ nav li{
         font-size: 15px;
     }
     nav .primary-button {
-            margin-top: 30px;
+        margin-top: 30px;
     }
     
     
