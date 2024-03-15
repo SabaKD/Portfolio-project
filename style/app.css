@@ -264,7 +264,11 @@ footer h2{
     margin-bottom: 0; 
 
 }
-
+.underConstruction{
+    max-width: 900px;
+    display: block;
+    margin: auto;
+}
 
 @media (max-width: 1200px){
     .hero, .aboutMeHero{
@@ -318,16 +322,16 @@ footer h2{
         margin-top: 30px;
     }
     footer h2 {
-            font-size: 40px;
+        font-size: 40px;
             
-        }
+    }
     
-        .giveMeACall p {
-            font-size: 18px;
-            
-            
-        }
-    
+    .giveMeACall p {
+        font-size: 18px;      
+    }
+    .underConstruction {
+        max-width: 500px;
+    }
     
 
 }
