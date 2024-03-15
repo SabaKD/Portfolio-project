@@ -7,15 +7,13 @@
 h1, h2, h3, h4,p,a{
     font-family: var(--heading-font-family);
 }
-h1 {
+.hero h1 {
     
     font-size: 70px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: -3px;
 }
-h2{
+.hero h2{
     
     font-size: 60px;
     font-style: normal;
@@ -28,7 +26,7 @@ h3{
     font-weight: 400;
     line-height: normal;
 }
-.hero{
+.hero, .aboutMeHero{
     margin-top: 150px;
 }
 .hero .p1{
@@ -121,9 +119,42 @@ margin-bottom: 33px;
     width: 636px;
     height: 360px;
 }
+
+.aboutMeHero h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 6.4px;
+}
+.aboutMeHero h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+.bullets{
+    font-size: 38px;
+    font-weight: 400;
+}
+.aboutMePhoto{
+    width: 350px;
+    height: 370px;
+    text-align: right; 
+}
+.icons{
+    font-size: 50px;
+    padding: 10px 10px 0px 0px;
+}
 @media (max-width: 1200px){
-    .hero{
+    .hero, .aboutMeHero{
         text-align: center;
+    }
+    .bullets{
+        list-style: none;
+        font-size: 20px;
+    }
+    .icons{
+        display: block;
+        font-size: 32px;
     }
     .hero .p1, .hero .p2{
         max-width: 900px;
