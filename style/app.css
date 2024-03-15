@@ -74,7 +74,7 @@ strong{
     margin-bottom: 50px;
     border-top: 2px solid #424141;
     
-border-right: 2px solid #424141;
+    border-right: 2px solid #424141;
     border-left: 2px solid #424141;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -156,6 +156,39 @@ margin-bottom: 33px;
     margin-top: 90px;
     margin-bottom: 50px;
 }
+.aboutMeSkills{
+    margin-top: 150px;
+}
+.aboutMeSkills h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 70px;
+    color: #555;
+
+}
+.aboutMeSkills h3{
+    font-size: 25px;
+}
+.Secondary-button{
+    border-radius: 50px;
+    background: #053154;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 25px;
+    margin:  0 10px 10px 0;
+    cursor: default;
+    border: none;
+}
+.Secondary-button:hover{
+    border-radius: 50px;
+    background: #053154;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 25px;
+    margin: 0 10px 10px 0;
+
+}
+
 @media (max-width: 1200px){
     .hero, .aboutMeHero{
         text-align: center;
@@ -171,6 +204,19 @@ margin-bottom: 33px;
     .hero .p1, .hero .p2{
         max-width: 900px;
     }
+    .Secondary-button {
+            border-radius: 50px;
+            background: #053154;
+            color: #fff;
+            padding: 5px 15px;
+            font-size: 15px;
+            margin: 0 10px 10px 0;
+            cursor: default;
+            border: none;
+    }
+    .aboutMeSkills h3 {
+            font-size: 18px;
+        }
     
 
 }
