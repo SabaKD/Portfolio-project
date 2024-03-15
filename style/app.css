@@ -4,6 +4,7 @@
         sans-serif;
     --paragraph-font-color: #555;
     --background-text: #F7F6F7;
+    --accent-color:rgb(45, 76, 29);
 }
 h1, h2, h3, h4,p,a{
     font-family: var(--heading-font-family);
@@ -140,6 +141,14 @@ strong{
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 120px;
+}
+.aboutMeHero a{
+    text-decoration: none;
+    color: var(--branding-color);
+}
+.aboutMeHero a:hover {
+    text-decoration: none;
+    color: var(--paragraph-font-color);
 }
 .bullets{
     font-size: 38px;
